@@ -13,7 +13,7 @@ function addItem() {
 }
 
 function removeItem() {
-  $("body").on("click", "#table a", function() {
+  $("body").on("click", ".table a", function() {
     $(this).closest("tr").remove();
   })
 }

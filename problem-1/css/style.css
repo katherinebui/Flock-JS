@@ -1,6 +1,6 @@
 form {
+  width: 30%;
   display: inline-block;
-  width: 300px;
 }
 
 .form-club {
@@ -8,4 +8,7 @@ form {
   padding-bottom: 25px;
 }
 
-
+#list {
+  margin: 0 auto;
+  width: 50%;
+}

@@ -3,16 +3,23 @@ form {
   margin: 0 auto;
 }
 
-.form-club {
+.form-group {
   text-align: center;
-}
-
-#list {
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 5%;
 }
 
 button {
   width: 50%;
+}
+
+table {
+  margin-top: 7%;
+  width: auto;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
 }

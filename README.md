@@ -14,7 +14,7 @@ open index.html
 ```
 
 ## Problem 2:
-When provided with two different jQuery function calls, I was asked to describe a scenario when and why I would use each. My answers are provided here: https://github.com/katherinebui/Flock-JS/blob/master/problem-2.md
+When provided with two different jQuery function calls, I was asked to describe a scenario on when and why I would use each. My answers are provided here: https://github.com/katherinebui/Flock-JS/blob/master/problem-2.md
 
 
 # Problem 3:

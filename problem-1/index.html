@@ -11,12 +11,28 @@
   <div class="form-club">
     <h1 class="display-3">To Do List</h1>
     <form>
-      <input type="text" class="form-control" placeholder="What do I have to do today?" name="item">
+      <input type="text" class="form-control" placeholder="Name" name="name">
+      <input type="text" class="form-control" placeholder="Topic" name="topic">
+      <input type="text" class="form-control" placeholder="Due Date" name="due">
+      <input type="text" class="form-control" placeholder="Completed" name="completed">
     </form>
     <button type="button" class="btn btn-info">Add Item</button>
   </div>
   <div></div>
-  <ul class="list-group" id="list"></ul>
+  <!-- <ul class="list-group" id="list"></ul> -->
+  <table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Topic</th>
+      <th>Due Date</th>
+      <th>Completed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr></tr>
+  </tbody>
+</table>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>

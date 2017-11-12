@@ -20,7 +20,7 @@ When provided with two different jQuery function calls, I was asked to describe 
 # Problem 3:
 I used JavsScript to make a simple calculator with add, subtract, multiple and divide functionalities. Utilizing ES6 introduction to classes in JavaScript, I have provided a way to execute basic math operations on numbers.
 
-To run the examples provided:
+To run the examples provided (assuming you are at the root of the directory):
 ```
 cd problem-3
 ```

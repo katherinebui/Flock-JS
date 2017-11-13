@@ -1,9 +1,10 @@
 function removeItem() {
+  var table = document.querySelector('.table');
   var close = document.getElementsByClassName('close');
   var i;
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
-      console.log('hi');
+      table.deleteRow(i);
     };
   }
 }

@@ -1,0 +1,25 @@
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-group {
+  text-align: center;
+}
+
+button {
+  width: 50%;
+}
+
+table {
+  margin-top: 7%;
+  width: auto;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}

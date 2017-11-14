@@ -1,12 +1,8 @@
 function removeItem() {
-  var table = document.querySelector('.table');
+  var table = document.getElementById('tbody');
   var close = document.getElementsByClassName('close');
-  var i;
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      table.deleteRow(i);
-    };
-  }
+  var lastListItem = table.lastChild;
+  lastListItem.remove();
 }
 
 function addItem() {
@@ -25,11 +21,7 @@ function addItem() {
   cell1.innerHTML = document.getElementById('name').value;
   cell2.innerHTML = document.getElementById('topic').value;
   cell3.innerHTML = document.getElementById('due').value;
-  cell4.innerHTML = document.getElementById('completed').value;
+  cell4.innerHTML = document.getElementById('checkbox').checked;
   cell5.appendChild(button);
-
-  document.getElementById('name').value = '';
-  document.getElementById('topic').value = '';
-  document.getElementById('due').value = '';
-  document.getElementById('completed').value = '';
+  document.querySelector('form').reset();
 }

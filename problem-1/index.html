@@ -14,12 +14,14 @@
       <input type="text" class="form-control" placeholder="Name" id="name">
       <input type="text" class="form-control" placeholder="Topic" id="topic">
       <input type="text" class="form-control" placeholder="Due Date" id="due">
-      <input type="text" class="form-control" placeholder="Completed" id="completed">
+      <label>Completed?
+        <input id="checkbox" type="checkbox">
+      </label>
     </form>
     <button type="button" class="btn btn-info" onClick="addItem()">Add Item</button>
   </div>
   <table class="table">
-  <tbody>
+  <tbody id="tbody">
     <tr>
       <th>Name</th>
       <th>Topic</th>

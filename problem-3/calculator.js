@@ -1,5 +1,4 @@
 class Calculator {
-
   validInput(first_num, second_num) {
     if (Number.isInteger(first_num) && Number.isInteger(second_num)){
       return true;

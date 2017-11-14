@@ -1,7 +1,7 @@
 # Flock JavaScript Problem Set
 
 ## Problem 1:
-Utilizing Bootstrap, JavaScript, HTML, and CSS, I built a simple To Do List application. I used simple input forms to capture it's field values and injected that data into the table. If I had more time, I would add validations to the form to ensure all fields are present before submission of the item. I initially implemented these functionalities using jQuery until I was advised to show off my JavaScript. :) You can view the jQuery execution here: https://github.com/katherinebui/Flock-JS/blob/master/problem-1-jQuery
+Utilizing Bootstrap, JavaScript, HTML, and CSS, I built a simple To Do List application. I used simple input forms to capture it's field values and injected that data into the table. If I had more time, I would add validations to the form to ensure all fields are present before submission of the item. I would've also pre-load the data and wrote some tests if I had the chance. I initially implemented these functionalities using jQuery until I was advised to show off my JavaScript. :) You can view the jQuery execution here: https://github.com/katherinebui/Flock-JS/blob/master/problem-1-jQuery
 
 To see the To Do List application:
 

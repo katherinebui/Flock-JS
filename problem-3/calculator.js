@@ -1,9 +1,4 @@
 class Calculator {
-  constructor(first_num, second_num) {
-    this.first_num = first_num;
-    this.second_num = second_num;
-  }
-
   add(first_num, second_num) {
     return first_num + second_num;
   }
